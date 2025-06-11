@@ -40,7 +40,7 @@ spec:
     spec:
       containers:
         - name: webhook
-          image: "alderico/webhook:tagname"
+          image: "ghcr.io/s2n-cnit/nfvcl-k8s-admission-webhook:v0.0.2"
           ports:
             - containerPort: 443
               name: https
